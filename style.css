@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topnav {
+    overflow: hidden;
+    background-color:#6F6AF7;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    
+   
+  }
+  .nbr{
+    border: 1 px  transparent;
+    margin-left: 150px;
+    justify-content: space-evenly;
+  }
+
+  .na{
+    color: #FFF;
+    font-family: 'Delius Unicase', cursive;
+font-size: 61.43px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+  }
+  #sre{
+    border: 1px solid transparent;
+    border-radius: 40px;
+    height: 35px;
+    margin-top: 10px;
+    position:fixed ;
+    margin-left: 1110px
+
+  }
+  #vcs{
+   margin-left: 270px;
+    height: 27px;
+    margin-top: 15px;
+    
+  }
+  .vcs2{
+    height: 8px;
+    margin-top: 19px;
+  }
+ 
+  #hd{
+    font-family: 'Delius Unicase', cursive; 
+  color: white; 
+margin-top: 10px;
+margin-left: 5px;}
+  
+  .topnav a {
+    
+    color: #f2f2f2;
+    text-align:center;
+    /* margin-left: 100px; */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* margin-left: 30px; */
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+   
+  }
+  
+  .up{
+
+    display: flex;
+    height: 490px;
+    
+
+  }
+  .cont{
+    
+    padding: 5px;
+    border: 0.5px  transparent;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+   
+    
+    
+  }
+
+  #im{
+    width: 445px;
+    
+    background-image: url(image\ 4.png);
+background-repeat: no-repeat; 
+margin-left: 80px;
+margin-top: 100px;
+}
+
+#dat{
+   background-color:#E5D8FF; 
+   padding-top: 30px;
+  margin-top: 100px ;
+  width: 640px;
+  padding-left: 50px;
+  padding-right: 30px;
+   }
+
+   .cont2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 70px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    
+    
+    
+    
+   }
+
+   .sm{
+    /* border: 1px solid black; */
+    margin: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    position: ;
+  }
+  #w{
+    background-image: url(logos_whatsapp-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1.5px solid  black;
+    width:27px ;
+  }
+
+  #t{
+    background-image: url(Group\ 3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+  }
+  #f{
+    background-image: url(Group\ 4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+  }
+.mid{
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+
+}
+
+.midcont{
+  border: 1 px solid white;
+  margin: 10px;
+  position: relative;
+  margin-top: 20px;
+  margin: 30px;
+  height: 50px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 11px;
+  color: #FFF;
+  box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+  
+
+}
+#lev1{
+  background-color: #929DFF;
+
+
+}
+#lev2{
+  background-color: #734CF2;
+ 
+
+}
+#lev3{
+  background-color: #D288FF;;
+
+
+}
+#lev4{
+  background-color: #000;
+  
+
+}
+
+.low{
+  margin-top: 100px;
+  margin: 1px solid white;
+  border-radius: 10px;
+  background-color: #483EFF;
+  height: 700px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  }
+  .lowleft{
+    display: flex;
+    flex-direction: column;
+ 
+    
+  }
+  .lowl{
+    padding: 30px;
+    height: 40px;
+    width: 150px;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 70px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: white;
+
+    
+  }
+  #lowl1{
+    background-color: #BCE0F6;
+    border: 1px solid transparent;
+  }
+  
+.lower{
+  border: 1px solid transparent;
+  margin: 7px;
+
+}
+#lowerr{
+  background-color: white;
+  border: 1 px solid transparent;
+  height: 600px;
+  width: 930px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+h6{
+  padding-left: 40px;
+  margin-top: 30px;
+  font-weight: 100;
+}
+
+#lb{
+  border: 1 px solid black;
+  background-color: black;
+  color: white;
+  margin-left: 600px;
+  position: relative;
+margin-bottom: 50px;
+  
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5PX;
+}
+.ic{
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ 
+}
+#bar{
+  position: fixed;
+  margin-left: 900px;
+  margin-top: 17px;
+  height: 26px;
+}
+
+
+
+
